@@ -35,6 +35,15 @@
    * Keymap generated using https://www.keymapper.dev/
    * Import sofle_keymap.json to view it.
    */
+   
+    // Activate ADJUST layer by pressing raise and lower
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        adjust_layer {
+            if-layers = <LOWER RAISE>;
+            then-layer = <ADJUST>;
+        };
+    };
 
   keymap {
         compatible = "zmk,keymap";
