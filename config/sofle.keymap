@@ -77,35 +77,35 @@
     behaviors {
         td_0: tap_dance_mod_tap {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_MOD_TAP";
+            label = "ALT_COMMA_MINUS";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mt RALT COMMA>, <&kp MINUS>;
         };
         td_1: tap_dance_mod_tap {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_MOD_TAP";
+            label = "CONTROL_DOT_EXCLAIM";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mt CTRL DOT>, <&kp EXCL>;
         };
         td_2: tap_dance_mod_tap {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_MOD_TAP";
+            label = "FORWARD_SLASH_UNDERSCORE";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp FSLH>, <&kp UNDER>;
         };
         td_3: tap_dance_mod_tap {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_MOD_TAP";
+            label = "MOD1_HASHTAG";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mt m_1>, <&kp HASH>;
         };
         td_4: tap_dance_mod_tap {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_MOD_TAP";
+            label = "Q_W_H";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mt Q W>, <&kp H>;
