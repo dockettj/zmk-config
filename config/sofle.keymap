@@ -75,35 +75,35 @@
     //    };
     //};
     behaviors {
-        td_0: tap_dance_mod_tap {
+        td_0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             label = "ALT_COMMA_MINUS";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mt RALT COMMA>, <&kp MINUS>;
         };
-        td_1: tap_dance_mod_tap {
+        td_1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             label = "CONTROL_DOT_EXCLAIM";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mt RCTRL DOT>, <&kp EXCL>;
         };
-        td_2: tap_dance_mod_tap {
+        td_2: tap_dance_2 {
             compatible = "zmk,behavior-tap-dance";
             label = "FORWARD_SLASH_UNDERSCORE";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp FSLH>, <&kp UNDER>;
         };
-        //td_3: tap_dance_mod_tap {
+        //td_3: tap_dance_3 {
         //    compatible = "zmk,behavior-tap-dance";
         //    label = "MOD1_HASHTAG";
         //    #binding-cells = <0>;
         //    tapping-term-ms = <200>;
         //    bindings = <&kp HASH>, <&m_1>;
         //};
-        td_4: tap_dance_mod_tap {
+        td_4: tap_dance_4 {
             compatible = "zmk,behavior-tap-dance";
             label = "Q_W_H";
             #binding-cells = <0>;
