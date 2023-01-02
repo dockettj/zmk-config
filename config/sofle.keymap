@@ -87,7 +87,7 @@
             label = "CONTROL_DOT_EXCLAIM";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mt CTRL DOT>, <&kp EXCL>;
+            bindings = <&mt RCTRL DOT>, <&kp EXCL>;
         };
         td_2: tap_dance_mod_tap {
             compatible = "zmk,behavior-tap-dance";
