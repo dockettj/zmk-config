@@ -101,7 +101,7 @@
             label = "MOD1_HASHTAG";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mt m_1>, <&kp HASH>;
+            bindings = <&mt m_1 HASH>, <&kp HASH>;
         };
         td_4: tap_dance_mod_tap {
             compatible = "zmk,behavior-tap-dance";
